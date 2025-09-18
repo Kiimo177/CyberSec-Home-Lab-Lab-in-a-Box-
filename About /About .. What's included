@@ -1,0 +1,40 @@
+1) About
+
+This project packages a beginner-to-intermediate cybersecurity home lab that you can run locally or in a VM.
+Goal: make learning practical attacks and defenses repeatable, documented, and sharable.
+
+2) What’s included
+
+Vulnerable targets
+
+DVWA (Damn Vulnerable Web App) — for SQLi, XSS, CSRF practice
+
+A deliberately misconfigured web app (static + insecure auth)
+
+Monitoring & logging
+
+Packet capture container (tcpdump -> pcap files)
+
+ELK-lite or Prometheus + Grafana for metrics & dashboarding (optional)
+
+auditd demo config + logs
+
+Attack/scan scripts
+
+scan.sh — nmap scans (fast/stealth/full)
+
+brute.sh — Hydra demo (against a local test endpoint)
+
+nc-shell/transfer examples using netcat
+
+Networking & hardening
+
+ufw example rules (allow/deny) and explained demo
+
+SSH hardening scripts (key-only, fail2ban)
+
+Docs
+
+step-by-step lab scenarios with expected PCAPs and Grafana screenshots
+
+mitigation guides and CV-ready writeups
